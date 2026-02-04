@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  background: #1e3d35;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: #2f5d50;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2f5d50;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+/* Threats */
+.stat {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 30px 15px;
+}
